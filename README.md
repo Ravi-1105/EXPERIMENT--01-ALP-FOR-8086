@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : RAVIVARMAN G S
+Roll no: 212223100044
+Date of experiment : 13.08.2024
 
 
 
@@ -95,6 +95,7 @@ SUB AL,BL
 HLT
 ```
 ## Output  
+![image](https://github.com/user-attachments/assets/be6250ec-3d0f-4a87-8b78-45d173ce3a4b)
 
 ## Multiplication alp 
 ```MOV AL,75H
