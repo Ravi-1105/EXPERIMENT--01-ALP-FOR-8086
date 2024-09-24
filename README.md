@@ -117,6 +117,95 @@ HLT
 ## Output  
 ![image](https://github.com/user-attachments/assets/95b8a10e-ef31-4e12-8794-1096628f70de)
 
+## LOGICAL OPERATIONS:
+### OR ALP:
+```
+org 100h
+
+mov ax, 0A23h
+mov si, 0b13h
+or ax, si
+
+
+ret
+```
+### OUTPUT:
+![or](https://github.com/user-attachments/assets/85528a19-bee2-4cd8-bc4e-5cbf296714e7)
+
+### AND ALP:
+```
+org 100h
+
+mov di, 0532h 
+mov cx, 0A23h
+mov dx, 0b13h
+and cx, dx   
+mov [0007h], cx
+
+ret
+```
+### OUTPUT:
+![and](https://github.com/user-attachments/assets/11e114c4-18f4-4e4c-b0da-559f7db33d69)
+
+### NOT ALP:
+```
+org 100h
+
+mov ax, 0A32h  
+not ax         
+               
+mov [0008h], ax
+
+ret
+```
+### OUTPUT:
+![not](https://github.com/user-attachments/assets/1a94e005-7542-4deb-8fc4-8a0d780613c2)
+
+
+### NAND ALP:
+```
+org 100h 
+
+mov ax, 0A32h  
+mov bx, 0B13h  
+and ax, bx     
+not ax         
+mov [0008h], ax
+
+
+ret
+```
+### OUTPUT:
+![nand](https://github.com/user-attachments/assets/234913d3-02a8-438b-933f-1b4d072abd09)
+
+### NOR ALP:
+```
+org 100h
+
+mov ax, 0A45h  
+mov bx, 0C30h  
+or ax, bx      
+not ax         
+mov [0020h], ax
+
+ret
+```
+### OUTPUT:
+![nor](https://github.com/user-attachments/assets/1fad837e-d99e-4b50-a8ac-bc5190bb9016)
+
+### XOR ALP:
+```
+org 100h
+mov ax, 0A32h  
+mov bx, 0B13h  
+xor ax, bx     
+               
+mov [0028h], ax
+
+ret
+```
+### OUTPUT:
+![xor](https://github.com/user-attachments/assets/fce635d7-3977-4aa4-a309-e2c4e9d8b9e8)
 
 ## Result :
 
