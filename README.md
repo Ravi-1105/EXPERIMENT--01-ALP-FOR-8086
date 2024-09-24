@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : RAVIVARMAN G S
-Roll no: 212223100044
+Name : RAVIVARMAN G S \n
+Roll no: 212223100044 \n
 Date of experiment : 13.08.2024
 
 
